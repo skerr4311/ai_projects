@@ -42,7 +42,7 @@ const sendMessage = async (message) => {
   messagesContainer.appendChild(loadingtextElement);
 
   async function makePostRequest(msg) {
-    const url = 'https://labs.cognitiveclass.ai/v2/tools/cloud-ide?ulid=ulid-ed220d83d1ad0a8ae00f400ac4e96efc29b479b6/chatbot'
+    const url = 'https://stevenkerr43-5000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/chatbot'
     ;
     const requestBody = {
       prompt: msg
