@@ -42,7 +42,8 @@ const sendMessage = async (message) => {
   messagesContainer.appendChild(loadingtextElement);
 
   async function makePostRequest(msg) {
-    const url = 'www.example.com';  // Make a POST request to this url
+    const url = 'https://labs.cognitiveclass.ai/v2/tools/cloud-ide?ulid=ulid-ed220d83d1ad0a8ae00f400ac4e96efc29b479b6/chatbot'
+    ;
     const requestBody = {
       prompt: msg
     };

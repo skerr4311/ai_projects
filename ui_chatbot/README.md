@@ -6,9 +6,17 @@
 
 #### Prerequisites
 ```cmd
-python3.11 -m pip install flask
-python3.11 -m pip install flask_cors
+python3.11 -m pip install -r requirements.txt
+```
 
-python3.11 -m pip install transformers==4.38.2
-python3.11 -m pip install torch==2.2.1
+#### Requirements to run locally
+Make sure you update ```/static/scripts.js``` to post to your hosted server:
+
+```javascript
+async function makePostRequest(msg) {
+    const url = 'www.example.com';  // Update this URL
+    const requestBody = {
+      prompt: msg
+    };
+  
 ```
