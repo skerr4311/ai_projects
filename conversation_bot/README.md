@@ -64,3 +64,8 @@ For this example, you'll be using ```facebook/blenderbot-400M-distill``` because
 ```cmd
 model_name = "facebook/blenderbot-400M-distill"
 ```
+
+#### Running the chatbot
+```cmd
+python3 chatbot.py
+```
