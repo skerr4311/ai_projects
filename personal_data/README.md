@@ -36,3 +36,44 @@ After you create a project, you can go to the project’s `Manage` tab > select 
 Lastly, you can follow the below demonstration to create/get your [IBM Cloud user API key](https://cloud.ibm.com/iam/apikeys?utm_source=skills_network&utm_content=in_lab_content_link&utm_id=Lab-test1_v1_1702536549). Be sure to write your API key down somewhere right after you create it, because you won’t be able to see it again!
 
 ![Getting IBM cloud user API key](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-GPXX0PPIEN/ezgif.com-video-to-gif.gif)
+
+## Project steps
+
+First, let's set up the environment by executing the following code:
+///cmd
+pip3 install virtualenv 
+virtualenv my_env # create a virtual environment my_env
+source my_env/bin/activate # activate my_env
+```
+
+The frontend will use HTML, CSS, and JavaScript. The user interface will be similar to many chatbots you see and use online. The code for the interface is provided and the focus of this guided project is to connect this interface with the backend that handles the uploading of your custom documents and integrates it with an LLM model to get customized responses. The provided code will help you to understand how the frontend and backend interact, and as you go through it, you will learn about the important parts and how it works, giving you a clear understanding of how the frontend works and how to create this simple web page.
+
+Run the following commands to retrieve the project, give it an appropriate name, and finally move to that directory by running the following:
+
+```cmd
+git clone https://github.com/ibm-developer-skills-network/wbphl-build_own_chatbot_without_open_ai.git
+mv wbphl-build_own_chatbot_without_open_ai build_chatbot_for_your_data
+cd build_chatbot_for_your_data
+```
+installing the requirements for the project
+```cmd
+pip install -r requirements.txt
+```
+
+```cmd
+pip install langchain-community
+```
+Have a cup of coffee, it will take 5-10 minutes to install the requirements (You can continue this project while the requirements are installed).
+
+```cmd
+      )  (
+     (   ) )
+      ) ( (
+    _______)_
+ .-'---------|  
+( C|/\/\/\/\/|
+ '-./\/\/\/\/|
+   '_________'
+    '-------'
+
+```
