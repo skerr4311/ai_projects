@@ -26,6 +26,12 @@ An AI image tagging project using Python and Gradio. This project explores how t
 
 ---
 
+### [job_application_coach](job_application_coach/README.md)
+
+An AI-powered assistant to help with job applications. This project includes tools for resume polishing, cover letter generation, and career advice, leveraging IBM Watsonx LLMs and Gradio for interactive web interfaces. It provides setup instructions, code samples, and guidance on integrating IBM's machine learning APIs for personalized job application support.
+
+---
+
 ### [note_taker](note_taker/README.md)
 
 A business AI meeting companion that uses speech-to-text (STT) technology. This project demonstrates how to transcribe audio from meetings and analyze the resulting text, with setup instructions for audio processing and transcription.
